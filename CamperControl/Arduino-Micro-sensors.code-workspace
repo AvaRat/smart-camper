@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../Arduino-Micro-sensors"
+		},
+		{
+			"name": "CamperControl",
+			"path": "."
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,567 @@
+22:30:26.291488 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 866098578:866099746, ack 2672934692, win 514, length 1168
+22:30:26.337177 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 1168, win 49, length 0
+22:30:26.498640 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 1207571091:1207571126, ack 3537826469, win 2052, length 35
+22:30:26.499869 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 35:1118, ack 1, win 2052, length 1083
+22:30:26.500079 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 1118:1153, ack 1, win 2052, length 35
+22:30:26.500828 IP CPX-58TAZJW88EO.lan.64372 > 40.103.44.38.https: Flags [.], ack 1153, win 511, length 0
+22:30:26.838537 IP CPX-58TAZJW88EO.lan.64529 > 52.112.120.212.https: Flags [P.], seq 2131378434:2131378562, ack 3853439850, win 512, length 128
+22:30:26.876419 IP 52.112.120.212.https > CPX-58TAZJW88EO.lan.64529: Flags [P.], seq 1:41, ack 128, win 2048, length 40
+22:30:26.876919 IP CPX-58TAZJW88EO.lan.64529 > 52.112.120.212.https: Flags [P.], seq 128:201, ack 41, win 511, length 73
+22:30:26.912476 IP 52.112.120.212.https > CPX-58TAZJW88EO.lan.64529: Flags [P.], seq 41:74, ack 201, win 2047, length 33
+22:30:26.913131 IP 52.112.120.212.https > CPX-58TAZJW88EO.lan.64529: Flags [F.], seq 74, ack 201, win 2047, length 0
+22:30:26.913556 IP CPX-58TAZJW88EO.lan.64529 > 52.112.120.212.https: Flags [.], ack 75, win 511, length 0
+22:30:26.913879 IP CPX-58TAZJW88EO.lan.64529 > 52.112.120.212.https: Flags [F.], seq 201, ack 75, win 511, length 0
+22:30:26.955271 IP 52.112.120.212.https > CPX-58TAZJW88EO.lan.64529: Flags [.], ack 202, win 2047, length 0
+22:30:27.054629 IP CPX-58TAZJW88EO.lan.50279 > 40.74.98.195.https: Flags [F.], seq 257795039, ack 95719335, win 513, length 0
+22:30:27.297326 IP 40.74.98.195.https > CPX-58TAZJW88EO.lan.50279: Flags [F.], seq 1, ack 1, win 2052, length 0
+22:30:27.297824 IP CPX-58TAZJW88EO.lan.50279 > 40.74.98.195.https: Flags [.], ack 2, win 513, length 0
+22:30:27.323478 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 481934068:481934101, ack 2792502662, win 274, length 33
+22:30:27.379749 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 33, win 516, length 0
+22:30:27.418167 IP marcel-ubuntu22.lan.33070 > 239.255.255.250.3702: UDP, length 607
+22:30:27.418362 IP6 fe80::f7b:67d6:ef72:89b6.43179 > ff02::c.3702: UDP, length 607
+22:30:27.435946 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:30:27.436114 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:30:27.635967 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:30:27.902649 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:30:28.298090 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 3354571106:3354571135, ack 2902282542, win 515, length 29
+22:30:28.308541 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 29, win 417, length 0
+22:30:28.406473 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 1:26, ack 29, win 417, length 25
+22:30:28.455626 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 26, win 515, length 0
+22:30:28.641705 IP CPX-58TAZJW88EO.lan.61032 > 93.184.220.29.www: Flags [F.], seq 3091667886, ack 2739519665, win 514, length 0
+22:30:28.652457 IP 93.184.220.29.www > CPX-58TAZJW88EO.lan.61032: Flags [F.], seq 1, ack 1, win 131, length 0
+22:30:28.657645 IP CPX-58TAZJW88EO.lan.61032 > 93.184.220.29.www: Flags [.], ack 2, win 514, length 0
+22:30:29.410284 IP CPX-58TAZJW88EO.lan.61350 > Teltonika-RUT955.com.lan.domain: 60345+ A? login.microsoftonline.com. (43)
+22:30:29.424088 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.61350: 60345 11/0/0 CNAME login.mso.msidentity.com., CNAME ak.privatelink.msidentity.com., CNAME www.tm.ak.prd.aadg.trafficmanager.net., A 20.190.159.23, A 20.190.159.0, A 20.190.159.71, A 40.126.31.73, A 20.190.159.4, A 40.126.31.67, A 20.190.159.75, A 40.126.31.71 (286)
+22:30:29.425950 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [S], seq 1575420864, win 65535, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:29.473696 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [S.], seq 3991106133, ack 1575420865, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:29.474334 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 1, win 1024, length 0
+22:30:29.480597 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 1:209, ack 1, win 1024, length 208
+22:30:29.530036 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 1:1421, ack 209, win 16384, length 1420
+22:30:29.530952 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 1421, win 1024, length 0
+22:30:29.531130 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 1421:2841, ack 209, win 16384, length 1420
+22:30:29.531603 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 2841:4228, ack 209, win 16384, length 1387
+22:30:29.531780 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 2841, win 1024, length 0
+22:30:29.532162 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 4228, win 1018, length 0
+22:30:29.571293 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 209:367, ack 4228, win 1018, length 158
+22:30:29.617651 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 4228:4279, ack 367, win 16384, length 51
+22:30:29.618440 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 4279, win 1024, length 0
+22:30:29.623285 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 367:1029, ack 4279, win 1024, length 662
+22:30:29.623403 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 1029:1298, ack 4279, win 1024, length 269
+22:30:29.667050 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], ack 1298, win 16380, length 0
+22:30:29.688129 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 4279:5324, ack 1298, win 16380, length 1045
+22:30:29.690049 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 5324, win 1019, length 0
+22:30:29.742520 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 1298:2023, ack 5324, win 1019, length 725
+22:30:29.742690 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], seq 2023:3443, ack 5324, win 1019, length 1420
+22:30:29.742778 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 3443:4441, ack 5324, win 1019, length 998
+22:30:29.788786 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], ack 4441, win 16385, length 0
+22:30:29.877132 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 5324:6744, ack 4441, win 16385, length 1420
+22:30:29.877219 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 6744:8164, ack 4441, win 16385, length 1420
+22:30:29.877322 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 8164:9584, ack 4441, win 16385, length 1420
+22:30:29.877435 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 9584:11004, ack 4441, win 16385, length 1420
+22:30:29.877553 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 11004:12424, ack 4441, win 16385, length 1420
+22:30:29.877624 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 12424:13114, ack 4441, win 16385, length 690
+22:30:29.879052 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 13114, win 1024, length 0
+22:30:29.963883 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [S], seq 1506934662, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:29.964427 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 4441:5155, ack 13114, win 1024, length 714
+22:30:29.964514 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 5155:5401, ack 13114, win 1024, length 246
+22:30:30.014753 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [S.], seq 3834202654, ack 1506934663, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:30.015382 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], ack 1, win 515, length 0
+22:30:30.017871 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 1:300, ack 1, win 515, length 299
+22:30:30.023288 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], ack 5401, win 16381, length 0
+22:30:30.027379 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 13114:14103, ack 5401, win 16381, length 989
+22:30:30.028112 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 14103, win 1020, length 0
+22:30:30.067118 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 1:1421, ack 300, win 16384, length 1420
+22:30:30.068106 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 1421:2841, ack 300, win 16384, length 1420
+22:30:30.068597 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [P.], seq 2841:4228, ack 300, win 16384, length 1387
+22:30:30.068732 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 5401:6148, ack 14103, win 1020, length 747
+22:30:30.068814 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], ack 2841, win 515, length 0
+22:30:30.068935 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], seq 6148:7568, ack 14103, win 1020, length 1420
+22:30:30.069012 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [P.], seq 7568:8529, ack 14103, win 1020, length 961
+22:30:30.071704 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 300:458, ack 4228, win 510, length 158
+22:30:30.114511 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], ack 8529, win 16385, length 0
+22:30:30.118665 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [P.], seq 4228:4279, ack 458, win 16383, length 51
+22:30:30.121427 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 458:827, ack 4279, win 515, length 369
+22:30:30.121505 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 827:880, ack 4279, win 515, length 53
+22:30:30.164762 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], ack 880, win 16382, length 0
+22:30:30.184701 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [P.], seq 4279:5214, ack 880, win 16382, length 935
+22:30:30.219945 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 880:1340, ack 5214, win 512, length 460
+22:30:30.220191 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], seq 1340:2760, ack 5214, win 512, length 1420
+22:30:30.220307 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], seq 2760:4180, ack 5214, win 512, length 1420
+22:30:30.220429 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], seq 4180:5600, ack 5214, win 512, length 1420
+22:30:30.220505 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [P.], seq 5600:5681, ack 5214, win 512, length 81
+22:30:30.242167 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 14103:15523, ack 8529, win 16385, length 1420
+22:30:30.242252 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 15523:16943, ack 8529, win 16385, length 1420
+22:30:30.242369 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 16943:18363, ack 8529, win 16385, length 1420
+22:30:30.242569 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 18363:19783, ack 8529, win 16385, length 1420
+22:30:30.242642 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [.], seq 19783:21203, ack 8529, win 16385, length 1420
+22:30:30.242699 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61042: Flags [P.], seq 21203:22533, ack 8529, win 16385, length 1330
+22:30:30.243016 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 16943, win 1024, length 0
+22:30:30.243278 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 21203, win 1024, length 0
+22:30:30.243488 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [.], ack 22533, win 1018, length 0
+22:30:30.268401 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], ack 2760, win 16385, length 0
+22:30:30.269489 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], ack 5681, win 16385, length 0
+22:30:30.290969 IP CPX-58TAZJW88EO.lan.53355 > Teltonika-RUT955.com.lan.domain: 2858+ A? graph.microsoft.com. (37)
+22:30:30.302362 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.53355: 2858 8/0/0 CNAME ags.privatelink.msidentity.com., CNAME www.tm.prd.ags.akadns.net., A 40.126.32.101, A 40.126.32.99, A 20.190.160.25, A 40.126.32.161, A 40.126.32.160, A 20.190.160.26 (213)
+22:30:30.304520 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [S], seq 953189973, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:30.334812 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [S.], seq 1247841547, ack 953189974, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:30.336376 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 1, win 515, length 0
+22:30:30.340242 IP CPX-58TAZJW88EO.lan.50251 > 85-115-35-169.frcpt.net.https: Flags [P.], seq 3928675695:3928676589, ack 1107241933, win 1024, length 894
+22:30:30.372558 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 5214:6634, ack 5681, win 16385, length 1420
+22:30:30.372644 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 6634:8054, ack 5681, win 16385, length 1420
+22:30:30.372760 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 8054:9474, ack 5681, win 16385, length 1420
+22:30:30.372875 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 9474:10894, ack 5681, win 16385, length 1420
+22:30:30.372996 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 10894:12314, ack 5681, win 16385, length 1420
+22:30:30.373114 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 12314:13734, ack 5681, win 16385, length 1420
+22:30:30.373238 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 13734:15154, ack 5681, win 16385, length 1420
+22:30:30.373355 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 15154:16574, ack 5681, win 16385, length 1420
+22:30:30.373473 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [.], seq 16574:17994, ack 5681, win 16385, length 1420
+22:30:30.373543 IP 20.190.159.23.https > CPX-58TAZJW88EO.lan.61043: Flags [P.], seq 17994:18131, ack 5681, win 16385, length 137
+22:30:30.374699 IP CPX-58TAZJW88EO.lan.61043 > 20.190.159.23.https: Flags [.], ack 18131, win 515, length 0
+22:30:30.391029 IP 85-115-35-169.frcpt.net.https > CPX-58TAZJW88EO.lan.50251: Flags [P.], seq 1:346, ack 894, win 72, length 345
+22:30:30.391607 IP CPX-58TAZJW88EO.lan.50251 > 85-115-35-169.frcpt.net.https: Flags [.], ack 346, win 1022, length 0
+22:30:30.393383 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [P.], seq 1:203, ack 1, win 515, length 202
+22:30:30.424138 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], seq 1:1421, ack 203, win 16384, length 1420
+22:30:30.425252 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], seq 1421:2841, ack 203, win 16384, length 1420
+22:30:30.425697 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], seq 2841:4261, ack 203, win 16384, length 1420
+22:30:30.425842 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 2841, win 515, length 0
+22:30:30.426121 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], seq 4261:5681, ack 203, win 16384, length 1420
+22:30:30.426303 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 5681:5969, ack 203, win 16384, length 288
+22:30:30.426767 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 5969, win 515, length 0
+22:30:30.432883 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [P.], seq 203:329, ack 5969, win 515, length 126
+22:30:30.433387 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], seq 329:1749, ack 5969, win 515, length 1420
+22:30:30.433506 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], seq 1749:3169, ack 5969, win 515, length 1420
+22:30:30.433577 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [P.], seq 3169:3243, ack 5969, win 515, length 74
+22:30:30.460868 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 5969:6020, ack 329, win 16384, length 51
+22:30:30.460942 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], ack 1749, win 16385, length 0
+22:30:30.460988 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [.], ack 3243, win 16385, length 0
+22:30:30.509030 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 6020, win 515, length 0
+22:30:30.640083 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 6020:6586, ack 3243, win 16385, length 566
+22:30:30.640181 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 6586:6842, ack 3243, win 16385, length 256
+22:30:30.640228 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 6842:6886, ack 3243, win 16385, length 44
+22:30:30.640271 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [P.], seq 6886:6920, ack 3243, win 16385, length 34
+22:30:30.640846 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 6920, win 512, length 0
+22:30:30.763755 IP marcel-ubuntu22.lan.53844 > 239.255.255.250.3702: UDP, length 607
+22:30:30.763953 IP6 fe80::f7b:67d6:ef72:89b6.42019 > ff02::c.3702: UDP, length 607
+22:30:30.778938 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:30:30.779118 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:30:30.894796 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:30:30.934724 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:30:30.982745 IP CPX-58TAZJW88EO.lan.61042 > 20.190.159.23.https: Flags [R.], seq 8529, ack 22533, win 0, length 0
+22:30:30.983318 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [F.], seq 3243, ack 6920, win 512, length 0
+22:30:31.011786 IP 40.126.32.101.https > CPX-58TAZJW88EO.lan.61045: Flags [F.], seq 6920, ack 3244, win 16385, length 0
+22:30:31.012096 IP CPX-58TAZJW88EO.lan.61045 > 40.126.32.101.https: Flags [.], ack 6921, win 512, length 0
+22:30:31.445381 IP CPX-58TAZJW88EO.lan.61350 > Teltonika-RUT955.com.lan.domain: 50679+ A? fef.msua01.manage.microsoft.com. (49)
+22:30:31.486293 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.61350: 50679 3/0/0 CNAME fef.msua01.trafficmanager.net., CNAME amsua0101sfring.westus.cloudapp.azure.com., A 40.82.248.225 (160)
+22:30:31.488074 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [S], seq 2292219280, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:31.668945 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [S.], seq 1763269160, ack 2292219281, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:31.669553 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 1, win 515, length 0
+22:30:31.671731 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 1:224, ack 1, win 515, length 223
+22:30:31.859335 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 1:1421, ack 224, win 2051, length 1420
+22:30:31.860330 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 1421:2841, ack 224, win 2051, length 1420
+22:30:31.861000 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 2841:4261, ack 224, win 2051, length 1420
+22:30:31.861070 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 2841, win 515, length 0
+22:30:31.861183 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 4261:4365, ack 224, win 2051, length 104
+22:30:31.861688 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 4365, win 515, length 0
+22:30:31.868134 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 224:382, ack 4365, win 515, length 158
+22:30:32.058927 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 4365:4416, ack 382, win 2050, length 51
+22:30:32.064276 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], seq 382:1802, ack 4416, win 515, length 1420
+22:30:32.064372 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 1802:2937, ack 4416, win 515, length 1135
+22:30:32.242692 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], ack 2937, win 2052, length 0
+22:30:32.243452 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 4416:4449, ack 2937, win 2052, length 33
+22:30:32.245025 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 2937:3164, ack 4449, win 515, length 227
+22:30:32.431431 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 4449:5869, ack 3164, win 2051, length 1420
+22:30:32.431516 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 5869:7289, ack 3164, win 2051, length 1420
+22:30:32.431627 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 7289:8709, ack 3164, win 2051, length 1420
+22:30:32.431696 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 8709:8891, ack 3164, win 2051, length 182
+22:30:32.432458 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 8891, win 515, length 0
+22:30:32.441588 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], seq 3164:4584, ack 8891, win 515, length 1420
+22:30:32.441706 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 4584:5877, ack 8891, win 515, length 1293
+22:30:32.619973 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], ack 5877, win 2052, length 0
+22:30:32.622283 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 8891:8966, ack 5877, win 2052, length 75
+22:30:32.671735 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 8966, win 515, length 0
+22:30:32.679594 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 8966:9020, ack 5877, win 2052, length 54
+22:30:32.680348 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [P.], seq 5877:6392, ack 9020, win 515, length 515
+22:30:32.903526 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], ack 6392, win 2050, length 0
+22:30:33.079395 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [.], seq 9020:10440, ack 6392, win 2050, length 1420
+22:30:33.079481 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 10440:10723, ack 6392, win 2050, length 283
+22:30:33.079528 IP 40.82.248.225.https > CPX-58TAZJW88EO.lan.61046: Flags [P.], seq 10723:10757, ack 6392, win 2050, length 34
+22:30:33.080517 IP CPX-58TAZJW88EO.lan.61046 > 40.82.248.225.https: Flags [.], ack 10757, win 515, length 0
+22:30:34.913581 IP 40.103.49.246.https > CPX-58TAZJW88EO.lan.64745: Flags [P.], seq 1684940779:1684940822, ack 1979142978, win 2052, length 43
+22:30:34.960923 IP CPX-58TAZJW88EO.lan.64745 > 40.103.49.246.https: Flags [.], ack 43, win 513, length 0
+22:30:37.927490 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 6876073:6876276, ack 1150270454, win 2063, length 203
+22:30:38.076853 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 203, win 2386, length 0
+22:30:38.176657 IP CPX-58TAZJW88EO.lan.59363 > 20.189.173.11.https: Flags [F.], seq 2580312614, ack 1127127396, win 1021, length 0
+22:30:38.277024 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 1168, win 49, length 0
+22:30:38.277518 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], ack 1, win 514, length 0
+22:30:38.305781 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 1:33, ack 33, win 516, length 32
+22:30:38.305899 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 3773217469:3773217501, ack 1294254049, win 512, length 32
+22:30:38.305947 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 3261845447:3261845479, ack 1912743995, win 515, length 32
+22:30:38.348013 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 33:61, ack 33, win 274, length 28
+22:30:38.348646 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64770: Flags [P.], seq 1:29, ack 32, win 287, length 28
+22:30:38.352857 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64766: Flags [P.], seq 1:29, ack 32, win 274, length 28
+22:30:38.368680 IP 20.189.173.11.https > CPX-58TAZJW88EO.lan.59363: Flags [F.], seq 1, ack 1, win 2048, length 0
+22:30:38.370331 IP CPX-58TAZJW88EO.lan.59363 > 20.189.173.11.https: Flags [.], ack 2, win 1021, length 0
+22:30:38.389229 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 1168:2332, ack 1, win 514, length 1164
+22:30:38.389790 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 2332:3752, ack 1, win 514, length 1420
+22:30:38.389865 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 3752:4112, ack 1, win 514, length 360
+22:30:38.397718 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 29, win 515, length 0
+22:30:38.397833 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 29, win 512, length 0
+22:30:38.397885 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 61, win 516, length 0
+22:30:38.434866 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 2332, win 49, length 0
+22:30:38.434942 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 4112, win 49, length 0
+22:30:38.967103 IP 52.96.60.130.https > CPX-58TAZJW88EO.lan.64413: Flags [P.], seq 510068954:510068997, ack 3210891128, win 16385, length 43
+22:30:39.012565 IP CPX-58TAZJW88EO.lan.64413 > 52.96.60.130.https: Flags [.], ack 43, win 513, length 0
+22:30:39.311209 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 29:58, ack 26, win 515, length 29
+22:30:39.324956 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 58, win 417, length 0
+22:30:39.420082 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 26:51, ack 58, win 417, length 25
+22:30:39.466283 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 51, win 514, length 0
+22:30:43.945814 IP CPX-58TAZJW88EO.lan.60991 > ec2-44-193-225-121.compute-1.amazonaws.com.https: Flags [F.], seq 2897348184, ack 1288069695, win 515, length 0
+22:30:43.945941 IP CPX-58TAZJW88EO.lan.60988 > ec2-44-193-225-121.compute-1.amazonaws.com.https: Flags [F.], seq 1618207785, ack 1341484023, win 515, length 0
+22:30:44.068510 IP ec2-44-193-225-121.compute-1.amazonaws.com.https > CPX-58TAZJW88EO.lan.60991: Flags [F.], seq 1, ack 1, win 1026, length 0
+22:30:44.069166 IP CPX-58TAZJW88EO.lan.60991 > ec2-44-193-225-121.compute-1.amazonaws.com.https: Flags [.], ack 2, win 515, length 0
+22:30:44.073408 IP ec2-44-193-225-121.compute-1.amazonaws.com.https > CPX-58TAZJW88EO.lan.60988: Flags [F.], seq 1, ack 1, win 1026, length 0
+22:30:44.074044 IP CPX-58TAZJW88EO.lan.60988 > ec2-44-193-225-121.compute-1.amazonaws.com.https: Flags [.], ack 2, win 515, length 0
+22:30:46.996080 IP 52.114.74.212.https > CPX-58TAZJW88EO.lan.62579: Flags [P.], seq 2559498813:2559499215, ack 2659957566, win 2052, length 402
+22:30:46.999641 IP CPX-58TAZJW88EO.lan.62540 > 52.114.74.212.https: Flags [.], seq 26828761:26830181, ack 1992626515, win 511, length 1420
+22:30:46.999763 IP CPX-58TAZJW88EO.lan.62540 > 52.114.74.212.https: Flags [P.], seq 1420:1467, ack 1, win 511, length 47
+22:30:47.003619 IP CPX-58TAZJW88EO.lan.50251 > 85-115-35-169.frcpt.net.https: Flags [P.], seq 894:2087, ack 346, win 1022, length 1193
+22:30:47.037016 IP 52.114.74.212.https > CPX-58TAZJW88EO.lan.62540: Flags [.], ack 1467, win 2052, length 0
+22:30:47.048376 IP CPX-58TAZJW88EO.lan.62579 > 52.114.74.212.https: Flags [.], ack 402, win 511, length 0
+22:30:47.069123 IP 85-115-35-169.frcpt.net.https > CPX-58TAZJW88EO.lan.50251: Flags [P.], seq 346:707, ack 2087, win 76, length 361
+22:30:47.069713 IP CPX-58TAZJW88EO.lan.50251 > 85-115-35-169.frcpt.net.https: Flags [.], ack 707, win 1021, length 0
+22:30:50.297883 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 58:87, ack 51, win 514, length 29
+22:30:50.310507 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 87, win 417, length 0
+22:30:50.408327 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 51:76, ack 87, win 417, length 25
+22:30:50.452600 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 76, win 514, length 0
+22:30:51.063350 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 203:346, ack 1, win 2063, length 143
+22:30:51.067594 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 346:587, ack 1, win 2063, length 241
+22:30:51.067680 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 587:677, ack 1, win 2063, length 90
+22:30:51.067852 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 677:918, ack 1, win 2063, length 241
+22:30:51.219858 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 346, win 2386, length 0
+22:30:51.220391 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 587, win 2386, length 0
+22:30:51.220837 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 677, win 2386, length 0
+22:30:51.221211 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 918, win 2386, length 0
+22:30:51.222176 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1:91, ack 918, win 2386, length 90
+22:30:51.222237 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 91:181, ack 918, win 2386, length 90
+22:30:51.222282 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 181:518, ack 918, win 2386, length 337
+22:30:51.222326 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 518:855, ack 918, win 2386, length 337
+22:30:51.222549 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 181, win 2062, length 0
+22:30:51.222641 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 855, win 2060, length 0
+22:30:53.010803 IP 40.103.49.246.https > CPX-58TAZJW88EO.lan.64745: Flags [P.], seq 43:86, ack 1, win 2052, length 43
+22:30:53.060574 IP CPX-58TAZJW88EO.lan.64745 > 40.103.49.246.https: Flags [.], ack 86, win 512, length 0
+22:30:53.523311 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 4112:5532, ack 1, win 514, length 1420
+22:30:53.523451 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 5532:6952, ack 1, win 514, length 1420
+22:30:53.523552 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 6952:8372, ack 1, win 514, length 1420
+22:30:53.523671 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 8372:9792, ack 1, win 514, length 1420
+22:30:53.523791 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 9792:11212, ack 1, win 514, length 1420
+22:30:53.523910 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 11212:12632, ack 1, win 514, length 1420
+22:30:53.523991 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 12632:13127, ack 1, win 514, length 495
+22:30:53.569941 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 5532, win 49, length 0
+22:30:53.574705 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 6952, win 49, length 0
+22:30:53.574779 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 8372, win 49, length 0
+22:30:53.574824 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 9792, win 49, length 0
+22:30:53.574868 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 11212, win 49, length 0
+22:30:53.574908 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 12632, win 49, length 0
+22:30:53.575996 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 13127, win 49, length 0
+22:30:54.194028 IP CPX-58TAZJW88EO.lan.53355 > Teltonika-RUT955.com.lan.domain: 59812+ A? safebrowsing.googleapis.com. (45)
+22:30:54.205296 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.53355: 59812 1/0/0 A 216.58.209.10 (61)
+22:30:54.209411 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 1250
+22:30:54.209616 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 75
+22:30:54.210160 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 967
+22:30:54.247296 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 1250
+22:30:54.248269 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 792
+22:30:54.248634 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 198
+22:30:54.249269 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 25
+22:30:54.249352 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 79
+22:30:54.249507 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 33
+22:30:54.253043 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 1246
+22:30:54.253138 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 1250
+22:30:54.253205 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 98
+22:30:54.254319 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 35
+22:30:54.254453 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 33
+22:30:54.262428 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 120
+22:30:54.264835 IP sof01s12-in-f10.1e100.net.https > CPX-58TAZJW88EO.lan.52809: UDP, length 25
+22:30:54.300790 IP CPX-58TAZJW88EO.lan.52809 > sof01s12-in-f10.1e100.net.https: UDP, length 33
+22:30:54.301264 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 32:64, ack 29, win 512, length 32
+22:30:54.301342 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 33:65, ack 61, win 516, length 32
+22:30:54.301390 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 32:64, ack 29, win 515, length 32
+22:30:54.344120 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 61:89, ack 65, win 274, length 28
+22:30:54.344725 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64766: Flags [P.], seq 29:57, ack 64, win 274, length 28
+22:30:54.345297 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64770: Flags [P.], seq 29:57, ack 64, win 287, length 28
+22:30:54.393503 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 89, win 516, length 0
+22:30:54.393625 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 57, win 515, length 0
+22:30:54.393673 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 57, win 512, length 0
+22:30:55.199267 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.50250: Flags [P.], seq 3858676662:3858676890, ack 2415412944, win 1025, length 228
+22:30:55.211079 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 855:1060, ack 918, win 2386, length 205
+22:30:55.255315 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 1060, win 2059, length 0
+22:30:55.255433 IP CPX-58TAZJW88EO.lan.50250 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 228, win 512, length 0
+22:30:55.821649 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 918:1019, ack 1060, win 2059, length 101
+22:30:55.970045 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1060:1161, ack 1019, win 2386, length 101
+22:30:56.022806 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 1161, win 2058, length 0
+22:30:56.167678 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [S], seq 2632182332, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:56.200199 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [S.], seq 3658326678, ack 2632182333, win 8192, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:56.201124 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1, win 515, length 0
+22:30:56.202170 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], seq 1:1421, ack 1, win 515, length 1420
+22:30:56.202247 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1421:1512, ack 1, win 515, length 91
+22:30:56.237258 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], ack 1512, win 1026, length 0
+22:30:56.238351 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [P.], seq 1:1234, ack 1512, win 1026, length 1233
+22:30:56.239785 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1512:1594, ack 1234, win 511, length 82
+22:30:56.239999 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1594:1639, ack 1234, win 511, length 45
+22:30:56.242258 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1639:2432, ack 1234, win 511, length 793
+22:30:56.270037 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], ack 1639, win 1025, length 0
+22:30:56.274119 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 1234:2654, ack 2432, win 1022, length 1420
+22:30:56.274211 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 2654:4074, ack 2432, win 1022, length 1420
+22:30:56.274328 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 4074:5494, ack 2432, win 1022, length 1420
+22:30:56.274445 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 5494:6914, ack 2432, win 1022, length 1420
+22:30:56.274565 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 6914:8334, ack 2432, win 1022, length 1420
+22:30:56.274685 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 8334:9754, ack 2432, win 1022, length 1420
+22:30:56.274809 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 9754:11174, ack 2432, win 1022, length 1420
+22:30:56.274927 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 11174:12594, ack 2432, win 1022, length 1420
+22:30:56.275048 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 12594:14014, ack 2432, win 1022, length 1420
+22:30:56.275094 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 5494, win 515, length 0
+22:30:56.275159 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 8334, win 515, length 0
+22:30:56.275252 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 14014:15434, ack 2432, win 1022, length 1420
+22:30:56.275282 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 9754, win 515, length 0
+22:30:56.275465 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 12594, win 515, length 0
+22:30:56.275826 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 15434, win 515, length 0
+22:30:56.311381 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], seq 15434:16854, ack 2432, win 1022, length 1420
+22:30:56.311465 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [P.], seq 16854:18222, ack 2432, win 1022, length 1368
+22:30:56.313349 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 18222, win 515, length 0
+22:30:56.351359 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [F.], seq 2432, ack 18222, win 515, length 0
+22:30:56.353510 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [S], seq 3979659346, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:56.381793 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [.], ack 2433, win 1022, length 0
+22:30:56.384063 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61047: Flags [F.], seq 18222, ack 2433, win 1022, length 0
+22:30:56.384413 IP CPX-58TAZJW88EO.lan.61047 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 18223, win 515, length 0
+22:30:56.389237 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [S.], seq 3964150668, ack 3979659347, win 8192, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:30:56.389577 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1, win 515, length 0
+22:30:56.390206 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [.], seq 1:1421, ack 1, win 515, length 1420
+22:30:56.390285 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1421:1512, ack 1, win 515, length 91
+22:30:56.425259 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [.], ack 1512, win 1026, length 0
+22:30:56.426302 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1:1234, ack 1512, win 1026, length 1233
+22:30:56.427323 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1512:1563, ack 1234, win 511, length 51
+22:30:56.427483 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1563:1594, ack 1234, win 511, length 31
+22:30:56.427599 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1594:1662, ack 1234, win 511, length 68
+22:30:56.459250 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [.], ack 1594, win 1025, length 0
+22:30:56.459331 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1234:1270, ack 1662, win 1025, length 36
+22:30:56.460483 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1662:1726, ack 1270, win 510, length 64
+22:30:56.489488 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1270:1306, ack 1726, win 1025, length 36
+22:30:56.490687 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1726:1794, ack 1306, win 510, length 68
+22:30:56.517613 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1306:1342, ack 1794, win 1025, length 36
+22:30:56.519125 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1794:1858, ack 1342, win 510, length 64
+22:30:56.547136 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1342:1378, ack 1858, win 1024, length 36
+22:30:56.548127 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1858:1922, ack 1378, win 510, length 64
+22:30:56.575508 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1378:1414, ack 1922, win 1024, length 36
+22:30:56.577649 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1922:1986, ack 1414, win 510, length 64
+22:30:56.611908 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1414:1450, ack 1986, win 1024, length 36
+22:30:56.614360 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1986:2050, ack 1450, win 515, length 64
+22:30:56.641660 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [P.], seq 1450:1486, ack 2050, win 1024, length 36
+22:30:56.690123 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1486, win 515, length 0
+22:30:57.050335 IP 52.96.60.130.https > CPX-58TAZJW88EO.lan.64413: Flags [P.], seq 43:86, ack 1, win 16385, length 43
+22:30:57.094042 IP CPX-58TAZJW88EO.lan.64413 > 52.96.60.130.https: Flags [.], ack 86, win 513, length 0
+22:30:57.277379 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 89:130, ack 65, win 274, length 41
+22:30:57.328288 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 130, win 515, length 0
+22:30:58.707297 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 130:171, ack 65, win 274, length 41
+22:30:58.755537 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 13127, win 49, length 0
+22:30:58.755968 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], ack 1, win 514, length 0
+22:30:58.762980 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 171, win 515, length 0
+22:30:59.202644 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1161:1366, ack 1019, win 2386, length 205
+22:30:59.246654 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 1366, win 2058, length 0
+22:31:00.654836 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1366:1467, ack 1019, win 2386, length 101
+22:31:00.655642 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 1019:1120, ack 1467, win 2063, length 101
+22:31:00.847721 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 1120, win 2386, length 0
+22:31:01.306062 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 87:116, ack 76, win 514, length 29
+22:31:01.317799 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 116, win 417, length 0
+22:31:01.416172 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 76:101, ack 116, win 417, length 25
+22:31:01.462465 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 101, win 514, length 0
+22:31:02.522849 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [F.], seq 2050, ack 1486, win 515, length 0
+22:31:02.555174 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [.], ack 2051, win 1024, length 0
+22:31:02.555692 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61048: Flags [F.], seq 1486, ack 2051, win 1024, length 0
+22:31:02.556027 IP CPX-58TAZJW88EO.lan.61048 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1487, win 515, length 0
+22:31:03.004560 IP CPX-58TAZJW88EO.lan.50910 > 40.113.110.67.https: Flags [P.], seq 3586349885:3586349928, ack 1591705629, win 514, length 43
+22:31:03.033124 IP 40.113.110.67.https > CPX-58TAZJW88EO.lan.50910: Flags [P.], seq 1:175, ack 43, win 7203, length 174
+22:31:03.081670 IP CPX-58TAZJW88EO.lan.50910 > 40.113.110.67.https: Flags [.], ack 175, win 513, length 0
+22:31:03.190154 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1467:1672, ack 1120, win 2386, length 205
+22:31:03.237261 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 1672, win 2062, length 0
+22:31:03.628876 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], seq 13127:14547, ack 1, win 514, length 1420
+22:31:03.629013 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 14547:15497, ack 1, win 514, length 950
+22:31:03.677155 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 15497, win 49, length 0
+22:31:03.716573 ARP, Request who-has CPX-58TAZJW88EO.lan tell Teltonika-RUT955.com.lan, length 28
+22:31:03.716850 ARP, Reply CPX-58TAZJW88EO.lan is-at a0:29:19:3b:4a:67 (oui Unknown), length 46
+22:31:09.680180 IP CPX-58TAZJW88EO.lan.61350 > Teltonika-RUT955.com.lan.domain: 64774+ A? europe.smartscreen-prod.microsoft.com. (55)
+22:31:09.693220 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.61350: 64774 3/0/0 CNAME wd-prod-ss-eu.trafficmanager.net., CNAME wd-prod-ss-eu-north-2-fe.northeurope.cloudapp.azure.com., A 20.82.250.189 (183)
+22:31:09.695276 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [S], seq 2202861637, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:09.742912 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [S.], seq 43997555, ack 2202861638, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:09.744020 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [.], ack 1, win 515, length 0
+22:31:09.754802 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [P.], seq 1:518, ack 1, win 515, length 517
+22:31:09.804271 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], seq 1:1421, ack 518, win 2050, length 1420
+22:31:09.805373 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], seq 1421:2841, ack 518, win 2050, length 1420
+22:31:09.805895 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], seq 2841:4261, ack 518, win 2050, length 1420
+22:31:09.806006 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [.], ack 2841, win 515, length 0
+22:31:09.806368 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], seq 4261:5681, ack 518, win 2050, length 1420
+22:31:09.806799 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], seq 5681:7101, ack 518, win 2050, length 1420
+22:31:09.806908 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [P.], seq 7101:7143, ack 518, win 2050, length 42
+22:31:09.806942 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [.], ack 5681, win 515, length 0
+22:31:09.807307 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [.], ack 7143, win 515, length 0
+22:31:09.812512 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [P.], seq 518:676, ack 7143, win 515, length 158
+22:31:09.861814 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [P.], seq 7143:7194, ack 676, win 2049, length 51
+22:31:09.863139 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [P.], seq 676:1359, ack 7194, win 515, length 683
+22:31:09.863292 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [P.], seq 1359:2592, ack 7194, win 515, length 1233
+22:31:09.913939 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], ack 2592, win 2052, length 0
+22:31:09.918074 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [FP.], seq 7194:8284, ack 2592, win 2052, length 1090
+22:31:09.918910 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [.], ack 8285, win 511, length 0
+22:31:09.919381 IP CPX-58TAZJW88EO.lan.61050 > 20.82.250.189.https: Flags [F.], seq 2592, ack 8285, win 511, length 0
+22:31:09.921032 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [S], seq 1476367036, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:09.927330 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [P.], seq 1120:1323, ack 1672, win 2062, length 203
+22:31:09.969098 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61050: Flags [.], ack 2593, win 2052, length 0
+22:31:09.969711 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [S.], seq 70717359, ack 1476367037, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:09.970337 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [.], ack 1, win 515, length 0
+22:31:09.974611 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [P.], seq 1:518, ack 1, win 515, length 517
+22:31:10.023290 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 1:1421, ack 518, win 2050, length 1420
+22:31:10.024427 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 1421:2841, ack 518, win 2050, length 1420
+22:31:10.024874 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 2841:4261, ack 518, win 2050, length 1420
+22:31:10.025184 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [.], ack 2841, win 515, length 0
+22:31:10.025300 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 4261:5681, ack 518, win 2050, length 1420
+22:31:10.025699 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 5681:7101, ack 518, win 2050, length 1420
+22:31:10.025889 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [P.], seq 7101:7143, ack 518, win 2050, length 42
+22:31:10.025964 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [.], ack 5681, win 515, length 0
+22:31:10.026425 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [.], ack 7143, win 515, length 0
+22:31:10.031962 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [P.], seq 518:676, ack 7143, win 515, length 158
+22:31:10.076040 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [.], ack 1323, win 2386, length 0
+22:31:10.081811 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [P.], seq 7143:7194, ack 676, win 2049, length 51
+22:31:10.082969 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [P.], seq 676:1468, ack 7194, win 515, length 792
+22:31:10.128426 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], seq 7194:8614, ack 1468, win 2052, length 1420
+22:31:10.130089 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [FP.], seq 8614:10015, ack 1468, win 2052, length 1401
+22:31:10.130985 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [.], ack 10016, win 515, length 0
+22:31:10.131730 IP CPX-58TAZJW88EO.lan.61051 > 20.82.250.189.https: Flags [F.], seq 1468, ack 10016, win 515, length 0
+22:31:10.179949 IP 20.82.250.189.https > CPX-58TAZJW88EO.lan.61051: Flags [.], ack 1469, win 2052, length 0
+22:31:10.299277 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 64:96, ack 57, win 512, length 32
+22:31:10.299406 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 65:97, ack 171, win 515, length 32
+22:31:10.299471 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [P.], seq 64:96, ack 57, win 515, length 32
+22:31:10.347195 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64770: Flags [P.], seq 57:85, ack 96, win 287, length 28
+22:31:10.347831 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64766: Flags [P.], seq 57:85, ack 96, win 274, length 28
+22:31:10.348604 IP edge-star-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64768: Flags [P.], seq 171:199, ack 97, win 274, length 28
+22:31:10.391641 IP CPX-58TAZJW88EO.lan.64766 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 85, win 515, length 0
+22:31:10.391759 IP CPX-58TAZJW88EO.lan.64770 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 85, win 512, length 0
+22:31:10.391807 IP CPX-58TAZJW88EO.lan.64768 > edge-star-shv-01-waw1.facebook.com.https: Flags [.], ack 199, win 515, length 0
+22:31:11.086180 IP 40.103.49.246.https > CPX-58TAZJW88EO.lan.64745: Flags [P.], seq 86:129, ack 1, win 2052, length 43
+22:31:11.138713 IP CPX-58TAZJW88EO.lan.64745 > 40.103.49.246.https: Flags [.], ack 129, win 512, length 0
+22:31:11.219254 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [S], seq 3982717999, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:11.251208 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [S.], seq 2171470939, ack 3982718000, win 8192, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:11.252872 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1, win 515, length 0
+22:31:11.253881 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [.], seq 1:1421, ack 1, win 515, length 1420
+22:31:11.253957 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1421:1512, ack 1, win 515, length 91
+22:31:11.289187 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [.], ack 1512, win 1026, length 0
+22:31:11.290259 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [P.], seq 1:1234, ack 1512, win 1026, length 1233
+22:31:11.291531 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1512:1563, ack 1234, win 511, length 51
+22:31:11.291740 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1563:1594, ack 1234, win 511, length 31
+22:31:11.291880 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [P.], seq 1594:1660, ack 1234, win 511, length 66
+22:31:11.321200 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [.], ack 1594, win 1025, length 0
+22:31:11.321274 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [P.], seq 1234:1270, ack 1660, win 1025, length 36
+22:31:11.374561 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1270, win 510, length 0
+22:31:11.483238 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 1153:1188, ack 1, win 2052, length 35
+22:31:11.484404 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 1188:2079, ack 1, win 2052, length 891
+22:31:11.484647 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 2079:2306, ack 1, win 2052, length 227
+22:31:11.485043 IP 40.103.44.38.https > CPX-58TAZJW88EO.lan.64372: Flags [P.], seq 2306:2341, ack 1, win 2052, length 35
+22:31:11.485114 IP CPX-58TAZJW88EO.lan.64372 > 40.103.44.38.https: Flags [.], ack 2306, win 515, length 0
+22:31:11.485340 IP CPX-58TAZJW88EO.lan.64372 > 40.103.44.38.https: Flags [.], ack 2341, win 515, length 0
+22:31:12.298600 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 116:145, ack 101, win 514, length 29
+22:31:12.310248 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 145, win 417, length 0
+22:31:12.408312 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 101:126, ack 145, win 417, length 25
+22:31:12.451437 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 126, win 514, length 0
+22:31:14.310348 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 145:1099, ack 126, win 514, length 954
+22:31:14.323508 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 1099, win 428, length 0
+22:31:14.421451 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 126:158, ack 1099, win 428, length 32
+22:31:14.441710 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [P.], seq 158:202, ack 1099, win 428, length 44
+22:31:14.442259 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [.], ack 202, win 514, length 0
+22:31:14.444199 IP CPX-58TAZJW88EO.lan.64754 > edge-msgr-latest-shv-01-waw1.facebook.com.https: Flags [P.], seq 1099:1135, ack 202, win 514, length 36
+22:31:14.453887 IP edge-msgr-latest-shv-01-waw1.facebook.com.https > CPX-58TAZJW88EO.lan.64754: Flags [.], ack 1135, win 428, length 0
+22:31:14.751215 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [P.], seq 15497:16731, ack 1, win 514, length 1234
+22:31:14.797627 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 16731, win 49, length 0
+22:31:14.994220 IP CPX-58TAZJW88EO.lan.53355 > Teltonika-RUT955.com.lan.domain: 53945+ A? substrate.office.com. (38)
+22:31:15.006995 IP Teltonika-RUT955.com.lan.domain > CPX-58TAZJW88EO.lan.53355: 53945 7/0/0 CNAME outlook.office365.com., CNAME outlook.ha.office365.com., CNAME outlook.ms-acdc.office.com., CNAME SXF-efz.ms-acdc.office.com., A 40.99.148.114, A 52.98.229.178, A 52.98.229.130 (195)
+22:31:15.009070 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [S], seq 2508872566, win 64240, options [mss 1460,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:15.028771 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [S.], seq 2433158874, ack 2508872567, win 65535, options [mss 1420,nop,wscale 8,nop,nop,sackOK], length 0
+22:31:15.029254 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 1, win 515, length 0
+22:31:15.045577 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 1:186, ack 1, win 515, length 185
+22:31:15.067989 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 1:1421, ack 186, win 16384, length 1420
+22:31:15.069227 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 1421:2841, ack 186, win 16384, length 1420
+22:31:15.069657 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 2841:4261, ack 186, win 16384, length 1420
+22:31:15.069821 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 4261:4439, ack 186, win 16384, length 178
+22:31:15.070078 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 2841, win 515, length 0
+22:31:15.070260 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 4439, win 515, length 0
+22:31:15.092380 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 186:344, ack 4439, win 515, length 158
+22:31:15.111548 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 4439:4797, ack 344, win 16384, length 358
+22:31:15.114029 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 344:1764, ack 4797, win 514, length 1420
+22:31:15.114156 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 1764:3184, ack 4797, win 514, length 1420
+22:31:15.114253 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 3184:4428, ack 4797, win 514, length 1244
+22:31:15.131784 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 3184, win 16385, length 0
+22:31:15.134608 IP 52.96.60.130.https > CPX-58TAZJW88EO.lan.64413: Flags [P.], seq 86:129, ack 1, win 16385, length 43
+22:31:15.176607 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 4428, win 16380, length 0
+22:31:15.184657 IP CPX-58TAZJW88EO.lan.64413 > 52.96.60.130.https: Flags [.], ack 129, win 513, length 0
+22:31:15.573657 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 4797:6217, ack 4428, win 16380, length 1420
+22:31:15.573751 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 6217:7637, ack 4428, win 16380, length 1420
+22:31:15.573830 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 7637:9057, ack 4428, win 16380, length 1420
+22:31:15.573959 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 9057:10477, ack 4428, win 16380, length 1420
+22:31:15.574073 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 10477:11897, ack 4428, win 16380, length 1420
+22:31:15.574195 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 11897:13317, ack 4428, win 16380, length 1420
+22:31:15.574270 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 13317:13428, ack 4428, win 16380, length 111
+22:31:15.574548 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 7637, win 515, length 0
+22:31:15.574953 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 13428, win 515, length 0
+22:31:15.583311 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 4428:5848, ack 13428, win 515, length 1420
+22:31:15.583430 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 5848:7268, ack 13428, win 515, length 1420
+22:31:15.583524 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 7268:8409, ack 13428, win 515, length 1141
+22:31:15.604780 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 8409, win 16385, length 0
+22:31:15.715563 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 13428:14848, ack 8409, win 16385, length 1420
+22:31:15.715650 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 14848:15360, ack 8409, win 16385, length 512
+22:31:15.715701 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 15360:15394, ack 8409, win 16385, length 34
+22:31:15.716418 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 15394, win 515, length 0
+22:31:15.723896 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 8409:9829, ack 15394, win 515, length 1420
+22:31:15.724022 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 9829:11249, ack 15394, win 515, length 1420
+22:31:15.724112 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 11249:12458, ack 15394, win 515, length 1209
+22:31:15.740042 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 11249, win 16385, length 0
+22:31:15.785847 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 12458, win 16380, length 0
+22:31:15.880185 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 15394:16814, ack 12458, win 16380, length 1420
+22:31:15.880269 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 16814:17325, ack 12458, win 16380, length 511
+22:31:15.880319 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 17325:17359, ack 12458, win 16380, length 34
+22:31:15.881108 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 17359, win 515, length 0
+22:31:15.889176 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 12458:13878, ack 17359, win 515, length 1420
+22:31:15.889299 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 13878:15298, ack 17359, win 515, length 1420
+22:31:15.889401 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 15298:16541, ack 17359, win 515, length 1243
+22:31:15.905919 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 15298, win 16385, length 0
+22:31:15.957649 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 16541, win 16380, length 0
+22:31:16.172402 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 17359:18779, ack 16541, win 16380, length 1420
+22:31:16.172487 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 18779:19386, ack 16541, win 16380, length 607
+22:31:16.173449 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 19386, win 515, length 0
+22:31:16.181665 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 16541:17961, ack 19386, win 515, length 1420
+22:31:16.181788 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 17961:19381, ack 19386, win 515, length 1420
+22:31:16.181874 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 19381:20522, ack 19386, win 515, length 1141
+22:31:16.199822 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 19381, win 16385, length 0
+22:31:16.254435 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 20522, win 16381, length 0
+22:31:16.309959 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 19386:20806, ack 20522, win 16381, length 1420
+22:31:16.310041 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 20806:21317, ack 20522, win 16381, length 511
+22:31:16.310683 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 21317:21351, ack 20522, win 16381, length 34
+22:31:16.311070 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 21317, win 515, length 0
+22:31:16.317597 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 20522:21942, ack 21351, win 515, length 1420
+22:31:16.317715 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], seq 21942:23362, ack 21351, win 515, length 1420
+22:31:16.317816 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [P.], seq 23362:24571, ack 21351, win 515, length 1209
+22:31:16.333784 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 23362, win 16385, length 0
+22:31:16.379426 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], ack 24571, win 16380, length 0
+22:31:16.444605 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [.], seq 21351:22771, ack 24571, win 16380, length 1420
+22:31:16.444699 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 22771:23282, ack 24571, win 16380, length 511
+22:31:16.445450 IP 40.99.148.114.https > CPX-58TAZJW88EO.lan.61053: Flags [P.], seq 23282:23316, ack 24571, win 16380, length 34
+22:31:16.445977 IP CPX-58TAZJW88EO.lan.61053 > 40.99.148.114.https: Flags [.], ack 23316, win 515, length 0
+22:31:16.673296 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [F.], seq 1660, ack 1270, win 510, length 0
+22:31:16.703943 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [.], ack 1661, win 1025, length 0
+22:31:16.704467 IP tanium-ws-prod-b.accenture.com.https > CPX-58TAZJW88EO.lan.61052: Flags [F.], seq 1270, ack 1661, win 1025, length 0
+22:31:16.704929 IP CPX-58TAZJW88EO.lan.61052 > tanium-ws-prod-b.accenture.com.https: Flags [.], ack 1271, win 510, length 0
+22:31:17.007501 IP marcel-ubuntu22.lan.57076 > 239.255.255.250.3702: UDP, length 607
+22:31:17.007697 IP6 fe80::f7b:67d6:ef72:89b6.48633 > ff02::c.3702: UDP, length 607
+22:31:17.024573 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:31:17.024750 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:31:17.148509 IP6 fe80::f7b:67d6:ef72:89b6 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+22:31:17.820444 IP marcel-ubuntu22.lan > igmp.mcast.net: igmp v3 report, 1 group record(s)
+22:31:18.701193 IP da9.accenture.com.https > CPX-58TAZJW88EO.lan.63285: Flags [P.], seq 1672:1877, ack 1323, win 2386, length 205
+22:31:18.749054 IP CPX-58TAZJW88EO.lan.63285 > da9.accenture.com.https: Flags [.], ack 1877, win 2061, length 0
+22:31:19.235259 IP ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https > CPX-58TAZJW88EO.lan.62563: Flags [.], ack 16731, win 49, length 0
+22:31:19.235674 IP CPX-58TAZJW88EO.lan.62563 > ec2-52-50-249-162.eu-west-1.compute.amazonaws.com.https: Flags [.], ack 1, win 514, length 0
+

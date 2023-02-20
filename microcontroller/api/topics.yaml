@@ -1,0 +1,3 @@
+gas_on: ducato/state/gas_on
+lights_on: ducato/state/lights_on
+water_on: ducato/state/water_on

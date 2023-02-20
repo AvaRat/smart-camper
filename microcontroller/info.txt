@@ -1,0 +1,2 @@
+esp8266 MAC = c8:c9:a3:09:d0:a2
+esp32 MAC = 
