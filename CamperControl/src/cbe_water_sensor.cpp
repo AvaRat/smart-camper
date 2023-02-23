@@ -12,10 +12,24 @@ void CbeWaterSensor::setup(){
 }
 
 void CbeWaterSensor::handle_loop(){
-    int a1 = analogRead(bronze);
-    int a2 = analogRead(yellow);
-    int a3 = analogRead(green);
+    int bronze_read = analogRead(bronze);
+    int yellow_read = analogRead(yellow);
+    int green_read = analogRead(green);
+
+    if((yellow_read > CBE_THRESHOLD) & (green_read > CBE_THRESHOLD )& (bronze_read > CBE_THRESHOLD)){
+        tank_level = 1.0;
+    }
+    else if((green_read > CBE_THRESHOLD) & (bronze_read > CBE_THRESHOLD)){
+        tank_level = 0.66;
+    }
+    else if(bronze_read > CBE_THRESHOLD){
+        tank_level = 0.33;
+    }
+    else{
+        tank_level = 0.0;
+    }
     char msg[256];
-    sprintf(msg, " reads: a1(bronze): %d\n\ta2(yellow): %d\n\ta3(green): %d\n\n", a1, a2, a3);
-    Serial.print(msg);
+    sprintf(msg, " reads: a1(bronze): %d\n\ta2(yellow): %d\n\ta3(green): %d\n\n", bronze_read, yellow_read, green_read);
+    Serial.println(msg);
+    Serial.println(tank_level);
 }

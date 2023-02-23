@@ -3,9 +3,6 @@
 
 #include <Arduino.h>
 #include <ArduinoJson.h>
-#include <RBD_Timer.h>
-#include <RBD_Button.h>
-#include "config.h"
 
 class MainBattery{
     public:
@@ -53,29 +50,6 @@ class CamperState{
     void handle_message(char *message, char *topic, size_t len);
     void to_json(char *json_string);
 };
-
-class ControlPanel{
-    public:
-    CamperState *state;
-    int water_pin;
-    int water_btn;
-    int lights_pin;
-    int lights_btn;
-    int gas_pin;
-    int gas_btn;
-    ControlPanel(CamperState *state);
-    void update_LEDs();
-};
-
-class PanelButtons{
-    public:
-    RBD::Button lights;
-    RBD::Button gas;
-    RBD::Button water;
-    PanelButtons(ControlPanel);
-};
-void setup_leds(ControlPanel *panel);
-
 
 
 #endif
