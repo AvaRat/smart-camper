@@ -12,18 +12,24 @@ class MainBattery{
     double total_voltage;
     bool charge_on;
     bool discharge_on;
+    bool heating_on;
+    MainBattery();
+
 };
 
 class Solar{
     public:
     double voltage;
     double current;
+    Solar();
 };
 
 class WaterTank{
     public:
     double temperature;
     double level;
+    bool heating_on;
+    WaterTank();
 };
 
 
@@ -42,11 +48,13 @@ class CamperState{
     bool lights_on;
     bool water_on;
     bool engine_on;
+    bool gas_heating_on;
     bool lte_signal;
     bool gps_signal;
     
     CamperState();
     void update_state();
+    void all_off();
     void handle_message(char *message, char *topic, size_t len);
     void to_json(char *json_string);
 };

@@ -11,13 +11,24 @@
 #define CBE_THRESHOLD 200
 
 //control panel
-#define DEBOUNCE_TIME 100
-#define WATER_PIN 7 //In8
-#define GAS_PIN 8   //In7
-#define LIGHTS_PIN 9    //In6
+#define DEBOUNCE_TIME 200 
+#define RELAY_IN_1 3 //In8
+#define RELAY_IN_2 2   //In7
+#define RELAY_IN_3 5    //In6
+#define RELAY_IN_4 4
+#define RELAY_IN_5 7
+#define RELAY_IN_6 6
+#define RELAY_IN_7 9
+#define RELAY_IN_8 8
 
+
+#define MAIN_BTN 32
 #define WATER_BTN 34
 #define GAS_BTN 36
 #define LIGHTS_BTN 38
+#define GAS_HEATING_BTN 33
+#define WENT_BTN 35
+#define WATER_HEATING_BTN 37
+#define BATTERY_HEATING_BTN 39
 
 #define AC_230_PIN 14

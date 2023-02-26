@@ -1,3 +1,4 @@
+#include "SPI.h"
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #include <Arduino.h>
@@ -12,6 +13,15 @@ float h = 0.0;
 
 OneWire oneWire(ONE_WIRE_PIN);
 DallasTemperature sensors(&oneWire);
+
+void SPI_setup(){
+  // initialize the bus for a device on pin 4
+
+  SPI.begin();
+  //SPI.setClockDivider(SPI_CLOCK_DIV8); //divide the clock by 8
+  
+  Serial.println("Hello I'm SPI Mega_Master");
+}
 
 
 // Generally, you should use "unsigned long" for variables that hold time
@@ -28,16 +38,11 @@ CbeWaterSensor cbe;
 void setup()
 {
   Serial.begin(9600);
-  Serial2.begin(9600);
-
-  Serial.println("elo");
-  Serial2.println("elo 2");
-
-  //while(!Serial1.available()){}
+  SPI_setup();
 
   Serial.println("PINs SETUP");
   panel.setup();
-  panel.update_LEDs();
+  panel.update_relays();
   pinMode(AC_230_PIN, INPUT);
 
   sensors.begin();
@@ -57,7 +62,6 @@ void loop(){
 
 
   // Every X number of seconds (interval = 10 seconds) 
-  // it publishes a new MQTT message
   if (currentMillis - previousMillis >= interval) {
     // Save the last time a new reading was published
     previousMillis = currentMillis;
@@ -79,13 +83,17 @@ void loop(){
     char msg[JSON_SIZE];
     state.to_json(msg);
     Serial.println(msg);
-    if(Serial2.availableForWrite()){
-      Serial2.write(msg);
-      Serial.println("msg out");
-      Serial2.flush();
+    
+     digitalWrite(SS, LOW); // enable Slave Select
+     char str[32] = "elo elo 320";
+    // send test string
+    for(int i=0; i< sizeof(str); i++) {
+      SPI.transfer( str [i] );
     }
+    digitalWrite(SS, HIGH); // disable Slave Select
+    delay(500);
   }
   panel.handle_loop();
   //delay(50);
-  panel.update_LEDs();
+  panel.update_relays();
 }
